@@ -1,2 +1,2 @@
-# selenium-test-suite
-Automated test cases using Selenium and Python
+# general-utils
+A selection of general utilities created while learning python and selenium.
