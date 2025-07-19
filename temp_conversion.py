@@ -30,14 +30,14 @@ if degrees:
         case 'c':
             f = math.ceil(((temp_float * 9/5) + 32) * 10) / 10
             k = math.ceil((temp_float + 273.15) * 10) / 10
-            print(f'{temp_float} Celsius ({degrees.upper()}) is {f} Ferinheight (F) and {k} Kelvin (K)')
+            print(f'{temp_float} Celsius ({degrees.upper()}) is {f} Fahrenheit (F) and {k} Kelvin (K)')
         case 'f':
             c = math.ceil(((temp_float - 32) * 5/9) * 10) / 10
             k = math.ceil(((temp_float -32) * 5/9 + 273.15) * 10) / 10
-            print(f'{temp_float} Ferinheight ({degrees.upper()}) is {c} Celsius (C) and {k} Kelvin (K)')
+            print(f'{temp_float} Fahrenheit ({degrees.upper()}) is {c} Celsius (C) and {k} Kelvin (K)')
         case 'k':
             c = math.ceil((temp_float - 273.15) * 10) / 10
             f = math.ceil(((temp_float - 273.15) * 9/5 +32) * 10) / 10
-            print(f'{temp_float} Kelvin ({degrees.upper()}) is {c} Celsius (C) and {f} Ferinheight')
+            print(f'{temp_float} Kelvin ({degrees.upper()}) is {c} Celsius (C) and {f} Fahrenheit')
 else:
     print('No degrees entered. Use C, F, or K.')
