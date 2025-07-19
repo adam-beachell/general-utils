@@ -11,12 +11,15 @@ The input is checked for the first instance of the letters C, F, or K to determi
 ## calculator-cli.py
 This basic calculator prompts the user for a simple operator (+, -, *, /) followed by two numbers. The util is designed to support including more operators by adding them to the ops dictionary.
 ### Example
-> Enter '+' to add two numbers  
-> Enter '-' to subtract two numbers   
-> Enter '*' to multiply two numbers   
-> Enter '/' to divide two numbers   
-> Enter 'quit (q)' to end the program  
-> : +  
-> Enter a number: 2  
-> Enter another number: 3  
-> 2.0 + 3.0 = 5.0
+> Simple Calculator CLI  
+> Available operations:  
+> \+  -> add  
+> \-  -> sub  
+> \*  -> mul  
+> \/  -> truediv  
+> Type 'q' or 'quit' to exit.  
+>   
+> Enter operation: +  
+> Enter first number: 2  
+> Enter second number: 3  
+> Result: 2.0 + 3.0 = 5.0
